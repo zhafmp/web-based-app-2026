@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+<style>
+  p.inline {
+    display: inline;
+    margin-right: 10px;
+  }
+  body {
+    text-align: center;
+  }
+
+</style>
+<body style="background-color:#f4c2c2">
+<h1>Course Sign Up Page</h1>
+<p>Please Note: First Name, Last Name, Password, and Email are required</p>
+
+    <p class="inline">First Name: <input type="text" name="firstName" required></p>
+    <p class="inline">Last Name: <input type="text" name="lastName" required></p>
+    <p class="inline">Email: <input type="email" name="email" required></p>
+    <p class="inline">Password: <input type="password" name="password" required></p>
+
+<p>Are you above the age of 18?</p>
+
+<input type="radio" name="age" value="yes">Yes
+<input type="radio" name="age" value="no">No
+
+<p>Do you have a Credit Card or PayPal?</p>
+<select name="payment" id="payment">
+  <option value="Credit Card">Credit Card</option>
+  <option value="PayPal">PayPal</option>
+</select>
+
+<input type="submit" value="Submit Feedback">
+
+<div>
+    <a href="https://www.djangoproject.com/">Back</a>
+    <a href="https://www.djangoproject.com/">Next</a>
+</div>
+</body>
+</html>
