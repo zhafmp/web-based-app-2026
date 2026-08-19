@@ -1,0 +1,73 @@
+<html>  
+    <title>
+        myprasmul
+    </title>
+    <head>
+        <style>
+            body {
+                font-family: Helvetica, sans-serif;
+                background-color: #f4f4f4;
+                text-align: left;
+                padding: 20px;
+            }
+            h1 {
+                color: #333;
+            }
+            input[type="email"],
+            input[type="password"] {
+                width: 250px;
+                padding: 10px;
+                margin: 5px 0;
+                border: 1px solid #ccc;
+                border-radius: 10px;
+            }
+            a[href] {
+                display: block;
+                width: 250px;
+                color: #2b5dc0;
+                text-decoration: none;
+                font-size: 12px;
+                font-style: italic;
+                text-align: right;
+                margin: 0px 0 5px;
+            }
+            div.checkbox {
+                display: flex;
+                width: 2%;
+                box-sizing: border-box;
+                padding: 10px;
+                margin-bottom: 10px;
+                align-items: center;
+                margin-top: 10px;
+                border: 1px solid #d0d0d0;
+                border-radius: 10px;
+                gap: 10px;
+    
+            }
+
+            input[type="submit"] {
+                background-color: #221d52;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 10px;
+                cursor: crosshair;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Welcome</h1>
+        <p>Please enter your login credentials</p>
+        <label>Email</label><br>
+        <input type="email" placeholder="Enter your email"><br>
+        <label>Password</label><br>
+        <input type="password" placeholder="Enter your password"><br>
+        <a href="https://www.djangoproject.com/">Forgot Password?</a><br>
+        <div class="checkbox">
+            <input type="checkbox" id="robot">
+            <label for="robot">I am not a robot</label>
+        </div>
+        <input type="submit" value="Login">
+    </body>
+</html>
